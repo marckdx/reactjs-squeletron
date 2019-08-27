@@ -1,6 +1,7 @@
 {
   "name": "react-electron",
   "version": "0.1.0",
+  "author": "@MarckDX",
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",
@@ -16,7 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "electron-dev": "concurrently \"yarn start\" \"wait-on http://localhost:3000 && electron .\""
+    "electron-dev": "concurrently \"yarn start\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron-pack": "build --em.main=build/electron.js"
   },
   "main": "public/electron.js",
   "eslintConfig": {
@@ -49,5 +51,7 @@
     "directories":{
       "buildResources": "assets"
     }
-  }
+  },
+  "preelectron-pack": "yarn build",
+  "homepage": "./"
 }
