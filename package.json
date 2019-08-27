@@ -39,5 +39,15 @@
     "electron": "^6.0.4",
     "electron-builder": "^21.2.0",
     "wait-on": "^3.3.0"
+  },
+  "build": {
+    "appId": "com.example.squeletron",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories":{
+      "buildResources": "assets"
+    }
   }
 }
