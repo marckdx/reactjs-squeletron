@@ -3,6 +3,8 @@
 This project aims to create a way to develop desktop and webapps using the same base code with Electron and ReactJS.
 You can check a example using this template on https://github.com/marckdx/react-electron-calculator
 
+![Home Screen](https://s3.us-east-2.amazonaws.com/blascke.com/images/react-squeleton-example-welcome.png)
+
 ### Running electron desktop app
     yarn electron-dev
 
