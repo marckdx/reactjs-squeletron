@@ -1,3 +1,8 @@
+#ReactJS and Electron united
+
+This project aims to create a way to develop desktop and webapps using the same base code with Electron and ReactJS.
+You can check a example using this template on https://github.com/marckdx/react-electron-calculator
+
 ### Running electron desktop app
     yarn electron-dev
 
